@@ -1,0 +1,175 @@
+<!-- header -->
+
+<%- include('header.ejs') %>
+
+<!-- css page -->
+    <link rel="stylesheet" href="/static/css/home.css">
+
+    <!-- slider start -->
+<%- include('navbar.ejs') %>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 mr_01">
+
+                    <div class="section">
+                        <ul class="case-study-wrapper">
+                            <li class="case-study-name">
+                                <a href="#" class="hover-target">Dare to be great.</a>
+                            </li>
+                            <li class="case-study-name">
+                                <a href="#" class="hover-target">Hustle to gain more muscle</a>
+                            </li>
+                            <li class="case-study-name">
+                                <a href="#" class="hover-target">Join Us</a>
+                            </li>
+                            <li class="case-study-name">
+                                <a href="#" class="hover-target">Feel the difference</a>
+                            </li>
+                            <button class="btn btn-Danger mt-3 left_00">Free Trial</button>
+                        </ul>
+                        <ul class="case-study-images">
+                            <li>
+                                <div class="img-hero-background"></div>
+                                <div class="dark-over-hero"></div>
+                                <div class="case-study-title">I am doing this for me</div>
+                            </li>
+                            <li>
+                                <div class="img-hero-background"></div>
+                                <div class="case-study-title">I Am Going to Feel Amazing After This Workout</div>
+                            </li>
+                            <li>
+                                <div class="img-hero-background"></div>
+                                <div class="case-study-title">Be a part of our family</div>
+                            </li>
+                            <li>
+                                <div class="img-hero-background"></div>
+                                <div class="case-study-title">With Our Best Instructor</div>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <!-- Page cursor	================================================== -->
+                    
+                    <div class='cursor' id="cursor"></div>
+                    <div class='cursor2' id="cursor2"></div>
+                    <div class='cursor3' id="cursor3"></div>
+
+                </div>c
+            </div>
+        </div>
+
+            <!-- slider ends -->
+
+        <div class="container mt-5 tf_000">
+            <div class="row">
+                <div class="col-12 tf_01">
+                    
+                    <table class="table_00">
+                        <tr>
+                            <td class="tf_02">
+
+                                    <div class="flip-card">
+                                        <div class="flip-card-inner">
+                                            <div class="flip-card-front">
+                                                <img src="https://avatars.githubusercontent.com/u/94594092?v=4" alt="Card Front Image">
+                                            </div>
+                                            <div class="flip-card-back">
+                                                <div class="card-content">
+                                                    <h2>Card Title</h2>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, eros at posuere fringilla,
+                                                        turpis tortor efficitur velit, at fringilla tortor magna id quam.</p>
+                                                    <a href="#" class="btn_01">Read More</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                            </td>
+
+                            <td class="tf_02_01">
+                                <div class="flip-card">
+                                    <div class="flip-card-inner">
+                                        <div class="flip-card-front">
+                                            <img src="https://avatars.githubusercontent.com/u/94594092?v=4" alt="Card Front Image">
+                                        </div>
+                                        <div class="flip-card-back">
+                                            <div class="card-content">
+                                                <h2>Card Title</h2>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, eros at posuere fringilla,
+                                                    turpis tortor efficitur velit, at fringilla tortor magna id quam.</p>
+                                                <a href="#" class="btn_01">Read More</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </td>
+
+                            <td class="tf_3">
+                                <div class="tf_3_03">
+                                <h2><i>Body Gold</i></h2>
+                                    <p>When we created Gym Base, we knew we wanted to be more than just a simple gym. Having worked in traditional gyms in the
+                                    past, we knew we needed to create a concept that would provide our members with the most effective tools for success.
+                                    This meant we needed to offer a wide range of classes both for children and adults.</p>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                    
+                </div>
+            </div>
+        </div>
+
+
+        <!-- third div -->
+
+        <div class="container-fluid mt-5 c_03">
+            <div class="row">
+                <div class="col-12">
+                    <h2>The Magic you are searching for is on the thing that you are avoiding.</h2>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- forth div -->
+
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-6 ct_001">
+                    <div class="hover_001">
+                        <h2>Book Your First Session</h2>
+
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam, alias facilis ipsam dignissimos</p>
+                    </div>
+                </div>
+                <div class="col-6 ct_002 py-5">
+                    <form action="/submit" method="POST">
+                        <table class="tbl_02">
+                            <tr>
+                                <td>
+                                    <input type="text" id="name" name="name" required placeholder="Your Name">
+                                </td>
+                                <td>
+                                    <input type="tel" id="mobile" name="mobile" pattern="[0-9]{10}" required placeholder="Your Phone">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="email" id="email" name="email" required placeholder="E-mail Address">
+                                </td>
+                                <td>
+                                    <input type="submit" value="Submit" class="btn btn-primary">
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+
+<%- include('footer.ejs') %>
+
+<script src="/static/js/home.js"></script>
